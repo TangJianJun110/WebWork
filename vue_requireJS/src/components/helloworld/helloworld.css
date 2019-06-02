@@ -1,0 +1,24 @@
+.hello {
+    height: 100%;
+    background: url(../../../assets/images/helloworld.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hello h1,
+.hello h2 {
+    font-weight: normal;
+}
+
+.hello ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hello li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.hello a {
+    color: #42b983;
+}

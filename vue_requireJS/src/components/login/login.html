@@ -1,0 +1,15 @@
+<div class="login_wrap">
+
+    <ul>
+        <li><label>账户:</label><input type="text" v-model="username"></input>
+        </li>
+        <li><label>密码:</label><input type="password" v-model="password"></input>
+        </li>
+        <li>
+            <div v-show="logtipmsgShow" class="info_error">{{logtipmsg}}</div>
+        </li>
+        <li>
+            <div class="login_btn" @click="login">登录</div>
+        </li>
+    </ul>
+</div>

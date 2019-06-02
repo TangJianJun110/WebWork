@@ -1,0 +1,46 @@
+.login_wrap {
+    text-align: center;
+    height: 100%;
+    background: url(../../../assets/images/loginbg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.login_wrap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    display: inline-block;
+    margin-top: 15%;
+    border: 1px solid #a6b197;
+    padding: 50px;
+    border-radius: 18px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.login_wrap li {
+    margin-bottom: 15px;
+}
+
+.login_wrap input {
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.login_btn {
+    background: dodgerblue;
+    color: #ffffff;
+    cursor: pointer;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px;
+}
+
+.info_error {
+    color: red;
+    text-decoration: underline;
+    font-size: 14px;
+}
